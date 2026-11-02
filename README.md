@@ -4,7 +4,8 @@ version : React - Vite | Node - Express | MySQL
 
 monorepo : Wild Code School
 
-git branch : 
+
+## git branch : 
 
 xyz-nameBranch 
 
@@ -14,6 +15,6 @@ z : numero du composant par page
 
 ex : 011 : 0 front, 0 page login, 1 connexion;
 
-Numéro des pages :
+## Numéro des pages :
 
 0 - login
