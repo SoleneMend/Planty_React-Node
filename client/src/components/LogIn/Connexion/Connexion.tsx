@@ -1,5 +1,5 @@
-import { useLanguage } from "../../../services/LanguageContext";
 import { getContent } from "../../../services";
+import { useLanguage } from "../../../services/LanguageContext";
 
 function Connexion() {
   const { lang, setLang } = useLanguage();
@@ -9,6 +9,12 @@ function Connexion() {
   return (
     <section>
       <div>
+        <button type="button" onClick={() => setLang("fr")}>
+          FR
+        </button>
+        <button type="button" onClick={() => setLang("en")}>
+          EN
+        </button>
         <h3>{content.title}</h3>
         <p>{content.text}</p>
       </div>

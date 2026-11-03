@@ -1,4 +1,4 @@
-import type { Connexion, Inscription, Lang } from "../types";
+import type { Connexion, Lang } from "../types";
 
 export const contentConnexion: Record<Lang, Connexion> = {
   fr: {
